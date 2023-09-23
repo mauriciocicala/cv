@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0,);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roger Reid</h1>
+        
+        <nav>
+            
+            <a href="#perfil">Perfil</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#educacion">Educación</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="perfil">
+            
+            <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="Mi Foto de Perfil" class="profile-img">
+            <h2><i class="fa fa-user"></i> Perfil Profesional</h2>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit laoreet pharetra, 
+                scelerisque volutpat enim. Sagittis facilisi id consequat libero magna ante etiam, 
+                diam ac ornare rhoncus pulvinar ullamcorper penatibus suscipit, 
+                erat natoque aptent quis imperdiet a.</p>
+            
+            </section>
+
+        <section id="experiencia">
+            <h2><i class="fa fa-briefcase">    
+            </i> Experiencia Laboral</h2>
+           
+            <ul>
+                <li>
+                    <h3>La web S.A.</h3>
+                    <p>Operador de pantalla. </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="educacion">
+            <h2><i class="fa fa-graduation-cap"></i> Educación</h2>
+            <ul>
+                <li>
+                    <h3>Principios de programacion en JAVA. 2023</h3>
+                    <p>Instituto ISCA 4014</p>
+                </li>
+                <li>
+                    <h3>Analista en Electronica</h3>
+                    <p>Escuela 1234</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2><i class="fa fa-user"></i> Habilidades</h2>
+            <ul>
+                <li>Curso de Foguista.</li>
+                <li>Curso Operación del Sistema DCS – Rel.201
+                   
+                </li>
+                
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2><i class="fa fa-link"></i> Contacto</h2>
+            <div class="contact-info">
+                
+                <i class="fa fa-envelope"></i> 
+                <a href="mailto:roger.reid@example.com?Subject=Te%20contacto"> Contactar por correo</a>
+            </div>
+            <div class="contact-info">
+                <i class="fa fa-phone"></i> (562) 493-6479
+            </div>
+            <div class="contact-info">
+                <i class="fa fa-linkedin"></i> 
+                <a href="https://www.linkedin.com/in/Roger-Reid" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
